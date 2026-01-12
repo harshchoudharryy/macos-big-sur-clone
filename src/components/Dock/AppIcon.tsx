@@ -11,7 +11,7 @@ type AppIconProps = {
   item: {
     name: string;
     icon: string;
-    type: "finder" | "settings" | "calculator"| "spotify"  | "link";
+    type: "finder" | "settings" | "calculator"| "spotify"|"iframe"  | "link";
     link?: string;
   };
   onSettingsClick?: () => void;
